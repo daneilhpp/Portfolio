@@ -4,7 +4,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
-
 @NgModule({
   declarations: [
     FooterComponent
@@ -15,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   exports: [FooterComponent, HttpClientModule]
 })
-export class CoreModule {
+export class CoreModule { 
   constructor(@Optional() @SkipSelf() parentModule: CoreModule) {
     if (parentModule) {
       throw new Error('CoreModule is already loaded. Import it in the AppModule only.');

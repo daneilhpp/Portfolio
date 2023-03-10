@@ -1,0 +1,33 @@
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: #EAEAEA;
+    bottom: 0;
+    height: 150px;
+    padding-bottom: 0;
+}
+
+.text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+#githubicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 43px;
+}
+#line{
+    height: 50px;
+    width: 4px;
+    margin: 0 15px 0 15px;
+    background-color: black;
+    display: inline-block;
+}
+#linkedinicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 40px;
+}
