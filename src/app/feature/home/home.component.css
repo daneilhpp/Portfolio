@@ -1,12 +1,46 @@
 a{
     color: black;
-    margin-left: 20px;
+    margin-left: 40px;
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     text-decoration: none;
+    padding: 40px 0 0 0;   
+}
+#lastLink{
+    padding-right: 80px;
+}
+#blob1{
+    width: 40%;
+    height: inherit;
 }
 
 .home{
     background-color: #EAEAEA;
+}
+
+.header{
+    display: inline-flex;
+    float: right;
+}
+
+.blobArea{
+    position: relative;
+}
+.centerTextOnBlob{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+#meuNome,
+#bomDia{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: bold;
+}
+#meuNome{
+    font-size: 30px;
 }
