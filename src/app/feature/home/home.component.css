@@ -5,13 +5,27 @@ a{
     font-size: 23px;
     font-weight: bold;
     text-decoration: none;
-    padding: 40px 0 0 0;   
+    float: right;
 }
-#lastLink{
-    padding-right: 80px;
+a::before{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    background-color: #99331C;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
 }
+a:hover::before{
+    transform: scaleX(1);
+}
+
 #blob1{
-    width: 40%;
+    width: 80%;
     height: inherit;
 }
 
@@ -20,17 +34,25 @@ a{
 }
 
 .header{
-    display: inline-flex;
-    float: right;
+    display: inline-block;
+/*     background-color: blue; */
+    padding-bottom: 100px;
+    padding-left: 50px;
+    z-index: 2;
 }
 
 .blobArea{
     position: relative;
+    display: inline-block;
+/*     background-color: red; */
+    width: 50%;
+    height: inherit;
+    z-index: 1;
 }
 .centerTextOnBlob{
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 35%;
     transform: translate(-50%, -50%);
 
 }
@@ -44,3 +66,83 @@ a{
 #meuNome{
     font-size: 30px;
 }
+
+.body{
+    font-family: 'Montserrat';
+/*     background-color: green; */
+    font-weight: bold;
+    font-size: 25px;
+}
+.textBox1{
+    text-align: end;
+    padding-right: 50px;
+}
+.textBox2{
+    padding-top: 100px;
+    text-align: center;
+}
+.textBox3{
+    padding-top: 100px;
+    text-align: center;
+}
+#stacks{
+    color: #586EA6;
+}
+#titulo{
+    font-weight: bolder;
+}
+#projetos{
+    color: #586EA6;
+    margin-left: 0;
+    font-size: 25px;
+    float: none;
+}
+#projetos::before{
+    transform: none;
+    display: none;
+    background-color: black;
+    width: 0;
+}
+.myDrawing{
+    display: flex;
+    justify-content: center;
+}
+#myDrawingImg{
+    width: 300px;
+    height: inherit;
+    margin: 4px 0 30px 0;
+}
+
+.textBox1{
+/*     background-color: yellow; */
+    z-index: 3;
+    margin-top:-70px;
+}
+
+#blob2{
+    width: 17%;
+    height: inherit;
+    margin-top: -250px;
+}
+#blob3{
+    width: 27%;
+    margin-bottom: -200px;
+}
+#blob4{
+    margin-left: 534px;
+    margin-bottom: -150px;
+}
+#blob5{
+    margin-left: 919px;
+    margin-bottom: -200px;
+    margin-top: -200px
+}
+/* 
+.textBox2{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.textBox2.appear{
+    opacity: 1;
+} */
+
