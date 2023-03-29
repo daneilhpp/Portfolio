@@ -1,148 +1,113 @@
-a{
-    color: black;
-    margin-left: 40px;
-    font-family: 'Montserrat';
-    font-size: 23px;
-    font-weight: bold;
-    text-decoration: none;
-    float: right;
-}
-a::before{
-    content:"";
-    display: block;
-    width: 100%;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    border-radius: 50px;
-    background-color: #99331C;
-    transform: scaleX(0);
-    transform-origin: top left;
-    transition: transform 0.3s ease;
-}
-a:hover::before{
-    transform: scaleX(1);
-}
-
-#blob1{
-    width: 80%;
-    height: inherit;
-}
-
 .home{
     background-color: #EAEAEA;
+    
 }
-
 .header{
-    display: inline-block;
-/*     background-color: blue; */
-    padding-bottom: 100px;
-    padding-left: 50px;
-    z-index: 2;
-}
+    /* background-color: red; */
 
-.blobArea{
-    position: relative;
-    display: inline-block;
-/*     background-color: red; */
-    width: 50%;
-    height: inherit;
-    z-index: 1;
-}
-.centerTextOnBlob{
     position: absolute;
-    top: 30%;
-    left: 35%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    top: 50px;
+    right: 50px;
+}
+.textInBlob{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 7%;
 
-}
-#meuNome,
-#bomDia{
-    color: white;
     font-family: 'Montserrat';
-    font-size: 23px;
     font-weight: bold;
-}
-#meuNome{
+    color: white;
     font-size: 30px;
 }
-
 .body{
     font-family: 'Montserrat';
-/*     background-color: green; */
-    font-weight: bold;
     font-size: 25px;
+    font-weight: bold;
+    color: #000;
+
 }
+
 .textBox1{
-    text-align: end;
+    /* background-color: green; */
+
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 50%;
     padding-right: 50px;
+    
+    text-align: right;
 }
 .textBox2{
-    padding-top: 100px;
+    /* background-color: greenyellow; */
+
+    margin-top: 70px;
     text-align: center;
 }
 .textBox3{
-    padding-top: 100px;
+    /* background-color: lightgreen; */
+
+    margin-top: 50px;
+
     text-align: center;
 }
-#stacks{
-    color: #586EA6;
-}
+
 #titulo{
     font-weight: bolder;
 }
-#projetos{
-    color: #586EA6;
-    margin-left: 0;
-    font-size: 25px;
-    float: none;
+
+#link{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+
+    margin-left: 20px;
 }
-#projetos::before{
-    transform: none;
-    display: none;
-    background-color: black;
-    width: 0;
-}
-.myDrawing{
-    display: flex;
-    justify-content: center;
-}
-#myDrawingImg{
+
+#myDrawing{
+    display: block;
+    margin: 40px auto 0 auto;
+    padding-bottom: 40px;
+
     width: 300px;
     height: inherit;
-    margin: 4px 0 30px 0;
 }
 
-.textBox1{
-/*     background-color: yellow; */
-    z-index: 3;
-    margin-top:-70px;
-}
+#blob1{
+    /* background-color: blue; */
 
-#blob2{
-    width: 17%;
+    width: 40%;
     height: inherit;
-    margin-top: -250px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#blob2{
+    width: 15%;
+    height: inherit;
+
+    position: relative;
+    top: 450px;
+    left: 0;
 }
 #blob3{
-    width: 27%;
-    margin-bottom: -200px;
+    width: 20%;
+    height: inherit;
+
+    position: relative;
+    top: 1100px;
+    margin-left: -210px;
 }
 #blob4{
-    margin-left: 534px;
-    margin-bottom: -150px;
-}
-#blob5{
-    margin-left: 919px;
-    margin-bottom: -200px;
-    margin-top: -200px
-}
-/* 
-.textBox2{
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
-.textBox2.appear{
-    opacity: 1;
-} */
+    width: 20%;
+    height: inherit;
 
+    position: relative;
+    top: 840px;
+    margin-left: 80%;
+}
