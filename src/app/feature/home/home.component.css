@@ -1,12 +1,14 @@
 .home{
+    background-image: url("../../../assets/backgroundImg1.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     background-color: #EAEAEA;
-    
+    padding-bottom: 1250px;
 }
 .header{
     /* background-color: red; */
 
     position: absolute;
-    right: 0;
     top: 50px;
     right: 50px;
 }
@@ -31,7 +33,6 @@
 
 .textBox1{
     /* background-color: green; */
-
     position: absolute;
     right: 0;
     top: 200px;
@@ -43,13 +44,17 @@
 .textBox2{
     /* background-color: greenyellow; */
 
-    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+    top: 500px;
     text-align: center;
 }
 .textBox3{
     /* background-color: lightgreen; */
 
-    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 600px;
 
     text-align: center;
 }
@@ -58,7 +63,7 @@
     font-weight: bolder;
 }
 
-#link{
+a{
     font-family: 'Montserrat';
     font-size: 26px;
     font-weight: bold;
@@ -67,14 +72,40 @@
 
     margin-left: 20px;
 }
+a:after{
+    content: '';
+    position: absolute;
+    background-color: #99331C;
+    height: 5px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-left: 18px;
+    margin-bottom: -5px;
+}
+a:hover{
+    color: #99331C;
+}
+a:hover:after{
+    width: 96%;
+}
 
+.myDrawing{
+    position: absolute;
+    top: 750px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 #myDrawing{
-    display: block;
-    margin: 40px auto 0 auto;
-    padding-bottom: 40px;
-
     width: 300px;
     height: inherit;
+}
+#myDrawing:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
 }
 
 #blob1{
@@ -110,4 +141,73 @@
     position: relative;
     top: 840px;
     margin-left: 80%;
+}
+
+#projetos{
+    color: #586EA6;
+    text-decoration: none;
+    margin: 0;
+}
+#projetos:after{
+    width: 0;
+}
+#projetos:hover{
+    transition: 0.5s;
+    color: #2f3d5f;
+}
+#stacks{
+    color: #586EA6;
+}
+#stacks:after{
+    width: 0;
+}
+#stacks:hover{
+    transition: 0.5s;
+    color: #2f3d5f;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    height: 150px;
+    position: absolute;
+    top: 1100px;
+}
+
+.text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+#githubicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 43px;
+    margin-left: 0;
+}
+#githubicon:hover{
+    width: 45px;
+    height: inherit;
+    transition: 0.5s;
+}
+#line{
+    height: 50px;
+    width: 4px;
+    margin: 0 0 0 15px;
+    background-color: black;
+    display: inline-block;
+}
+#linkedinicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 40px;
+    margin-left: 0;
+}
+#linkedinicon:hover{
+    width: 45px;
+    height: inherit;
+    transition: 0.5s;
 }

@@ -13,38 +13,24 @@ export class HomeComponent implements OnInit {
   
   constructor() { }
 
-  appearOptions = {
-    threshold: 1
-  };
-  appearOnScroll = new IntersectionObserver
-  (
-    function(entries, appearOnScroll)
-    {
-      entries.forEach(entry => {
-        if(!entry.isIntersecting)
-          return;
-        else{
-          entry.target.classList.add('appear');
-          appearOnScroll.unobserve(entry.target);
-        }
-      })
-    }, 
-    this.appearOptions
-  );
-
   ngOnInit(): void {
     if(this.dateTime.getHours() > 6 && this.dateTime.getHours() <= 11){
-      this.greeting = 'Bom dia'
+      this.greeting = 'Bom dia';
     }
     else if(this.dateTime.getHours() > 11 && this.dateTime.getHours() <= 18){
-      this.greeting = 'Boa tarde'
+      this.greeting = 'Boa tarde';
     } 
-    else if(this.dateTime.getHours() > 18 && this.dateTime.getHours() <= 6){
-      this.greeting = 'Boa noite'
+    else if(this.dateTime.getHours() > 18 && this.dateTime.getHours() <= 24){
+      this.greeting = 'Boa noite';
     }
-    console.log(this.dateTime.getHours())
-
-    this.faders.forEach(fader => this.appearOnScroll.observe(fader))
-  }
+    else if(this.dateTime.getHours() > 0 && this.dateTime.getHours() <= 6){
+      this.greeting = 'Boa noite';
+    }
+    else{
+      this.greeting = 'Olá';
+    }
+    console.log(this.dateTime.getHours());
+    console.log(this.greeting);
+   }
   
 }
