@@ -1,6 +1,154 @@
 .about{
-    background-image: url("../../../assets/backgroundImg1.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-color: #EAEAEA;
     padding-bottom: 100000px;
+}
+.body{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.header{
+    /* background-color: red; */
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#link{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+#link:after{
+    content: '';
+    position: absolute;
+    background-color: #6D9928;
+    height: 5px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-left: 18px;
+    margin-bottom: -5px;
+}
+#link:hover{
+    color: #6D9928;
+}
+#link:hover:after{
+    width: 96%;
+}
+
+#blob1{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 40%;
+    height: inherit;
+}
+.textInBlob{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    right: 7%;
+
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+.textBox1{
+    /* background-color: green; */
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 70%;
+    padding-left: 70px;
+}
+#titulo{
+    font-weight: bolder;
+}
+.textBox2{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    text-align: center;
+
+    font-weight: lighter;
+    color: #616161;
+    font-style: italic;
+}
+#title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skillBox{
+    position: absolute;
+    top: 700px;
+
+    width: 100%;
+    padding: 0 20% 0 20%;
+}
+#img{
+    width: 170px;
+    height: inherit;
+
+    border: 5px solid #6D9928;
+    border-radius: 33px;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    height: 150px;
+    position: absolute;
+    top: 10000px;
+}
+
+.text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+#githubicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 43px;
+    margin-left: 0;
+}
+#githubicon:hover{
+    width: 45px;
+    height: inherit;
+    transition: 0.5s;
+}
+#line{
+    height: 50px;
+    width: 4px;
+    margin: 0 0 0 15px;
+    background-color: black;
+    display: inline-block;
+}
+#linkedinicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+#linkedinicon:hover{
+    width: 45px;
+    height: inherit;
+    transition: 0.5s;
 }
