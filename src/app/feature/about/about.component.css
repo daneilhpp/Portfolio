@@ -96,16 +96,119 @@
     width: 100%;
     padding: 0 20% 0 20%;
 }
-#img{
-    width: 170px;
+/* .spring,
+#spring, */
+
+img{
+    padding: 6% 0 6% 0;
+    width: 100%;
+    height: inherit;
+    /* background-color: red; */
+}
+.borderImg{
+    /* background-color: blue; */
+    position: relative;
+    width: 20%;
     height: inherit;
 
     border: 5px solid #6D9928;
     border-radius: 33px;
     
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 5%;
 }
+.borderImg div{
+    visibility: hidden;
+    /* background-color: green; */
+    width: fit-content;
+
+    position: absolute;
+    bottom: 37%;
+    left: 20%;
+
+    text-align: center;
+}
+.borderImg:hover div{
+    visibility: visible;
+}
+
+.borderImg:hover{
+    transform: scale(120%);
+    transition: 1s;
+    opacity: 0.5;
+    background-color: #6D9928;
+}
+
+#javaT{
+    left: 30%;
+}
+#csharpT{
+    left: 40%;
+}
+#jsT{
+    left: 7%;
+}
+#tsT{
+    left: 5%;
+}
+#angularT{
+    left: 18%;
+}
+#nodejsT{
+    left: 19%;
+}
+#sqlserverT{
+    bottom: 25%;
+    left: 2%;
+}
+#postgreT{
+    left: 0%;
+}
+
+#sqlserverB{
+    margin-left: 15%;
+}
+#postgreB{
+    margin-right: 15%;
+}
+/* #java,
+#csharp,
+#dotnet,
+#js,
+#ts,
+#angular,
+#nodejs,
+#sqlserver,
+#mysql,
+#postgre
+#spring:hover,
+#java:hover,
+#csharp:hover,
+#dotnet:hover,
+#js:hover,
+#ts:hover,
+#angular:hover,
+#nodejs:hover,
+#sqlserver:hover,
+#mysql:hover,
+#postgre:hover{
+    width: 22%;
+    height: 22%;
+
+    opacity: 0.5;
+    background-color: #6D9928;
+
+    transition: 0.3s;
+} 
+#springT{
+    position: absolute;
+    top: 840px;
+    left: 330px;
+    display: none;
+}
+#spring:hover > #springT{
+   display: block;
+}*/
 
 .footer{
     text-align: center;
