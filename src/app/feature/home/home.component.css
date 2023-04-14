@@ -16,7 +16,7 @@
     z-index: 1;
     position: absolute;
     top: 50px;
-    left: 7%;
+    left: 5%;
 
     font-family: 'Montserrat';
     font-weight: bold;
@@ -117,21 +117,23 @@
     position: absolute;
     top: 0;
     left: 0;
+    margin: -13%  0 0 -7%;
 }
 #blob2{
-    width: 15%;
+    width: 30%;
     height: inherit;
 
     position: absolute;
     top: 450px;
     left: 0;
+    margin-left: -10%;
 }
 #blob3{
     width: 30%;
     height: inherit;
 
     position: absolute;
-    bottom: -600px;
+    bottom: -90%;
     left: 0;
 }
 #blob4{
@@ -139,7 +141,7 @@
     height: inherit;
 
     position: absolute;
-    bottom: -600px;
+    bottom: -90%;
     right: 0;
 }
 #blob5{
@@ -155,6 +157,7 @@
     color: #586EA6;
     text-decoration: none;
     margin: 0;
+    -webkit-transition: 0.5s;
 }
 #projetos:hover{
     transition: 0.5s;
@@ -163,6 +166,7 @@
 #stacks{
     color: #586EA6;
     text-decoration: none;
+    -webkit-transition: 0.5s;
 }
 #stacks:hover{
     transition: 0.5s;
@@ -189,10 +193,10 @@
     display: inline-block;
     padding-bottom: 43px;
     margin-left: 0;
+    -webkit-transition: 0.5s;
 }
 #githubicon:hover{
-    width: 45px;
-    height: inherit;
+    transform: scale(110%);
     transition: 0.5s;
 }
 #line{
@@ -208,9 +212,9 @@
     display: inline-block;
     padding-bottom: 40px;
     margin-left: 20px;
+    -webkit-transition: 0.5s;
 }
 #linkedinicon:hover{
-    width: 45px;
-    height: inherit;
+    transform: scale(110%);
     transition: 0.5s;
 }

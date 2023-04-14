@@ -1,0 +1,128 @@
+.projects {
+    /*     background-image: url("../../../assets/backgroundImg1.png");
+         background-repeat: no-repeat;
+        background-attachment: scroll;*/
+    background-color: #EAEAEA;
+    padding-bottom: 3000px;
+}
+
+.header {
+    /* background-color: red; */
+
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+#link{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+#link:after{
+    content: '';
+    position: absolute;
+    background-color: #586EA6;
+    height: 5px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-left: 18px;
+    margin-bottom: -5px;
+}
+#link:hover{
+    color: #586EA6;
+}
+#link:hover:after{
+    width: 96%;
+}
+
+
+.textInBlob {
+    z-index: 1;
+    position: absolute;
+    top: 70px;
+    left: 5%;
+
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.body{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+
+#blob1{
+    /* background-color: blue; */
+
+    width: 40%;
+    height: inherit;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -13%  0 0 -7%;
+}
+#blob5{
+    /* background-color: blue; */
+
+    width: 15%;
+    height: inherit;
+
+    position: absolute;
+    top: 6%;
+    right: 0;
+}
+
+.cardGroup{
+    position: absolute;
+    top: 50%;
+
+    padding: 0 7%;
+    width: 100%;
+}
+.card{
+    background-color: transparent;
+    margin-bottom: 5%;
+    padding: 5%;
+    border-radius: 26px;
+    border-width: 0;
+    -webkit-transition: 0.5s;
+}
+.card:hover{
+    background-color: white;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+#cardImg{
+    border: #586EA6 solid 6px;
+    border-radius: 26px;
+    padding: 0;
+    width: 50%;
+    height: inherit;
+    -webkit-transition: 0.5s;
+}
+#cardImg:hover{
+    transform: rotateY(-10deg) rotateX(-10deg);
+    transition: 0.5s;
+}
+
+#title{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#text{
+    font-weight: bold;
+    font-size: 25px;
+}

@@ -1,6 +1,6 @@
 .about{
     background-color: #EAEAEA;
-    padding-bottom: 100000px;
+    padding-bottom: 2700px;
 }
 .body{
     font-family: 'Montserrat';
@@ -49,9 +49,58 @@
     position: absolute;
     top: 0;
     right: 0;
+    padding: 0;
 
     width: 40%;
     height: inherit;
+}
+#blob2{
+    position: absolute;
+    top: 400px;
+    right: 0;
+    padding: 0;
+
+    width: 20%;
+    height: inherit;
+
+}
+#blob3{
+    position: absolute;
+    top: 1400px;
+    right: 0;
+    margin-top: -10%;
+
+    width: 10%;
+    height: inherit;
+    padding: 0;
+}
+#blob4{
+    position: absolute;
+    top: 2360px;
+    right: 0;
+
+    width: 20%;
+    height: inherit;
+    padding: 0;
+}
+#blob5{
+    position: absolute;
+    top: 2386px;
+    left: 0;
+
+    width: 20%;
+    height: inherit;
+    padding: 0;
+}
+#blob6{
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    margin-left: -20%;
+
+    width: 40%;
+    height: inherit;
+    padding: 0;
 }
 .textInBlob{
     z-index: 1;
@@ -89,6 +138,7 @@
     text-align: center;
     margin-bottom: 30px;
 }
+.toolBox,
 .skillBox{
     position: absolute;
     top: 700px;
@@ -96,9 +146,9 @@
     width: 100%;
     padding: 0 20% 0 20%;
 }
-/* .spring,
-#spring, */
-
+.toolBox{
+    top: 1400px;
+}
 img{
     padding: 6% 0 6% 0;
     width: 100%;
@@ -116,6 +166,7 @@ img{
     
     display: block;
     margin: 0 auto 5%;
+    -webkit-transition: 0.5s;
 }
 .borderImg div{
     visibility: hidden;
@@ -171,44 +222,48 @@ img{
 #postgreB{
     margin-right: 15%;
 }
-/* #java,
-#csharp,
-#dotnet,
-#js,
-#ts,
-#angular,
-#nodejs,
-#sqlserver,
-#mysql,
-#postgre
-#spring:hover,
-#java:hover,
-#csharp:hover,
-#dotnet:hover,
-#js:hover,
-#ts:hover,
-#angular:hover,
-#nodejs:hover,
-#sqlserver:hover,
-#mysql:hover,
-#postgre:hover{
-    width: 22%;
-    height: 22%;
 
-    opacity: 0.5;
-    background-color: #6D9928;
-
-    transition: 0.3s;
-} 
-#springT{
-    position: absolute;
-    top: 840px;
-    left: 330px;
-    display: none;
+#intellijB{
+    margin-left: 15%;
 }
-#spring:hover > #springT{
-   display: block;
-}*/
+#gitB{
+    margin-right: 15%;
+}
+#insomniaB{
+    margin-left: 27%;
+}
+#mavenB{
+    margin-right: 27%;
+}
+
+#vscodeT{
+    left: 2%;
+    bottom: 12%
+}
+#gitT{
+    left: 35%;
+}
+#insomniaT{
+    left: 10%;
+}
+#mavenT{
+    left: 25%;
+}
+
+
+.commitsBox{
+    position: absolute;
+    top: 2000px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#a{
+    width: 800px;
+    height: inherit;
+}
 
 .footer{
     text-align: center;
@@ -216,7 +271,7 @@ img{
     background-color: transparent;
     height: 150px;
     position: absolute;
-    top: 10000px;
+    top: 2400px;
 }
 
 .text{
@@ -229,11 +284,12 @@ img{
     height: inherit;
     display: inline-block;
     padding-bottom: 43px;
+    padding-top: 0;
     margin-left: 0;
+    -webkit-transition: 0.5s;
 }
 #githubicon:hover{
-    width: 45px;
-    height: inherit;
+    transform: scale(110%);
     transition: 0.5s;
 }
 #line{
@@ -249,9 +305,10 @@ img{
     display: inline-block;
     padding-bottom: 40px;
     margin-left: 20px;
+    padding-top: 0;
+    -webkit-transition: 0.5s;
 }
 #linkedinicon:hover{
-    width: 45px;
-    height: inherit;
+    transform: scale(110%);
     transition: 0.5s;
 }
