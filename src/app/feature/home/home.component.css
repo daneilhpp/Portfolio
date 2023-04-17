@@ -194,6 +194,7 @@
     padding-bottom: 43px;
     margin-left: 0;
     -webkit-transition: 0.5s;
+    
 }
 #githubicon:hover{
     transform: scale(110%);

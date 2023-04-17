@@ -3,7 +3,7 @@
          background-repeat: no-repeat;
         background-attachment: scroll;*/
     background-color: #EAEAEA;
-    padding-bottom: 3000px;
+    padding-bottom: 2650px;
 }
 
 .header {
@@ -47,12 +47,12 @@
     z-index: 1;
     position: absolute;
     top: 70px;
-    left: 5%;
+    left: 3%;
 
     font-family: 'Montserrat';
     font-weight: bold;
     color: white;
-    font-size: 30px;
+    font-size: 250%;
 }
 .body{
     font-family: 'Montserrat';
@@ -73,6 +73,36 @@
     top: 0;
     left: 0;
     margin: -13%  0 0 -7%;
+}
+#blob2{
+    /* background-color: blue; */
+
+    width: 35%;
+    height: inherit;
+
+    position: absolute;
+    top: 100%;
+    left: -20%;
+}
+#blob3{
+    /* background-color: blue; */
+
+    width: 35%;
+    height: inherit;
+
+    position: absolute;
+    top: 367%;
+    left: -10%;
+}
+#blob4{
+    /* background-color: blue; */
+
+    width: 25%;
+    height: inherit;
+
+    position: absolute;
+    top: 357%;
+    right: 0;
 }
 #blob5{
     /* background-color: blue; */
@@ -97,7 +127,7 @@
     margin-bottom: 5%;
     padding: 5%;
     border-radius: 26px;
-    border-width: 0;
+    border: solid 2px #616161;
     -webkit-transition: 0.5s;
 }
 .card:hover{
@@ -110,12 +140,36 @@
     border-radius: 26px;
     padding: 0;
     width: 50%;
-    height: inherit;
+    height: 50%;
     -webkit-transition: 0.5s;
+    margin: auto 0;
 }
 #cardImg:hover{
-    transform: rotateY(-10deg) rotateX(-10deg);
+    transform: rotateY(10deg) rotateX(-10deg);
     transition: 0.5s;
+}
+
+.buttons{
+    display: inline-block;
+    text-align: center;
+
+    position: relative;
+    bottom: -5%;
+}
+#cardButtonOpen,
+#cardButtonGit{
+    width: 10%;
+    height: inherit;
+}
+#cardButtonOpen{
+    margin-left: 25%;
+}
+
+#cardButtonOpen:hover,
+#cardButtonGit:hover{
+    transform: scale(110%);
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 #title{
@@ -125,4 +179,70 @@
 #text{
     font-weight: bold;
     font-size: 25px;
+}
+
+.textBox1{
+    position: absolute;
+    width: 100%;
+    top: 2200px;
+
+    text-align: center;
+}
+#dots{
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+
+    -webkit-transition: 0.3s;
+    cursor: default;
+}
+#dots:hover{
+    letter-spacing: 15px;
+    transition: 0.2s;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    height: 150px;
+    position: absolute;
+    top: 2500px;
+}
+
+.text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+#githubicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 43px;
+    margin-left: 0;
+    -webkit-transition: 0.5s;
+}
+#githubicon:hover{
+    transform: scale(110%);
+    transition: 0.5s;
+}
+#line{
+    height: 50px;
+    width: 4px;
+    margin: 0 0 0 15px;
+    background-color: black;
+    display: inline-block;
+}
+#linkedinicon{
+    width: 40px;
+    height: inherit;
+    display: inline-block;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    -webkit-transition: 0.5s;
+}
+#linkedinicon:hover{
+    transform: scale(110%);
+    transition: 0.5s;
 }

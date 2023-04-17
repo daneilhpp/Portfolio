@@ -1,6 +1,6 @@
 .about{
     background-color: #EAEAEA;
-    padding-bottom: 2700px;
+    padding-bottom: 2550px;
 }
 .body{
     font-family: 'Montserrat';
@@ -76,7 +76,7 @@
 }
 #blob4{
     position: absolute;
-    top: 2360px;
+    top: 2208px;
     right: 0;
 
     width: 20%;
@@ -85,7 +85,7 @@
 }
 #blob5{
     position: absolute;
-    top: 2386px;
+    top: 2234px;
     left: 0;
 
     width: 20%;
