@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Title} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,9 @@ export class HomeComponent implements OnInit {
   dateTime: Date = new Date();
   faders = document.querySelectorAll('.textBox2');
   
-  constructor() { }
+  constructor(private titleService:Title) {
+    this.titleService.setTitle("Portfolio");
+  }
 
   ngOnInit(): void {
     if(this.dateTime.getHours() > 6 && this.dateTime.getHours() <= 11){

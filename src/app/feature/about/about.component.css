@@ -1,6 +1,6 @@
 .about{
     background-color: #EAEAEA;
-    padding-bottom: 2550px;
+    padding-bottom: 2203px;
 }
 .body{
     font-family: 'Montserrat';
@@ -76,7 +76,7 @@
 }
 #blob4{
     position: absolute;
-    top: 2208px;
+    bottom: -235.3%;
     right: 0;
 
     width: 20%;
@@ -85,7 +85,7 @@
 }
 #blob5{
     position: absolute;
-    top: 2234px;
+    bottom: -235.3%;
     left: 0;
 
     width: 20%;
@@ -250,16 +250,6 @@ img{
     left: 25%;
 }
 
-
-.commitsBox{
-    position: absolute;
-    top: 2000px;
-    display: block;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-
 #a{
     width: 800px;
     height: inherit;
@@ -271,7 +261,7 @@ img{
     background-color: transparent;
     height: 150px;
     position: absolute;
-    top: 2400px;
+    top: 2000px;
 }
 
 .text{

@@ -3,7 +3,7 @@
      background-repeat: no-repeat;
     background-attachment: scroll;*/
     background-color: #EAEAEA;
-    padding-bottom: 1250px;
+    padding-bottom: 1254px;
 }
 .header{
     /* background-color: red; */
@@ -133,7 +133,7 @@
     height: inherit;
 
     position: absolute;
-    bottom: -90%;
+    bottom: -91%;
     left: 0;
 }
 #blob4{
@@ -141,7 +141,7 @@
     height: inherit;
 
     position: absolute;
-    bottom: -90%;
+    bottom: -91%;
     right: 0;
 }
 #blob5{
@@ -149,7 +149,7 @@
     height: inherit;
 
     position: absolute;
-    top: 500px;
+    top: 70%;
     right: 0;
 }
 
