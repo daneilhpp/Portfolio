@@ -302,3 +302,80 @@ img{
     transform: scale(110%);
     transition: 0.5s;
 }
+
+
+@media only screen and (max-width: 700px) {
+    #blob1{
+        width: 50%;
+    }
+    #blob2{
+        width: 20%;
+        top: 600px;
+    }
+    #blob3{
+        top: 1500px;
+    }
+    #blob4{
+        top: 1825px;
+    }
+    #blob5{
+        top: 1840px;
+    }
+    #blob6{
+        top: 1200px;
+    }
+    .textInBlob{
+        top: 3%;
+    }
+    .header{
+        width: 20%;
+        top: 3%;
+        line-height: 50px;
+    }
+    #link{
+        font: 25px;
+    }
+    #link:after{
+        content: '';
+        position: absolute;
+        background-color:none;
+        height: 5px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 18px;
+        margin-bottom: -5px;
+    }
+    #link:hover{
+        color: #6D9928;
+    }
+    #link:hover:after{
+        width: 0;
+    }
+    .body{
+        font-size: 20px;
+    }
+    .textBox1{
+        top: 300px;
+        width: 90%;
+    }
+    .textBox2{
+        top: 600px;
+    }
+    .skillBox{
+        top: 800px;
+        padding: 0 5% 0 5%;
+    }
+    .toolBox{
+        top: 1350px;
+        padding: 0 5% 0 5%;
+    }
+    .footer{
+        top: 1800px;
+    }
+    .about{
+        padding-bottom: 2003px;
+    }
+}

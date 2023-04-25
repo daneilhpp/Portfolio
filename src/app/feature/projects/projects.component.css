@@ -247,3 +247,98 @@
     transform: scale(110%);
     transition: 0.5s;
 }
+@media only screen and (max-width: 700px) {
+    .projects{
+        padding-bottom: 3800px;
+    }
+    .body{
+        font-size: 20px;
+    }
+    .header{
+        width: 20%;
+        text-align: right;
+        top: 3%;
+        line-height: 50px;
+    }
+    #link{
+        font: 25px;
+    }
+    #link:after{
+        content: '';
+        position: absolute;
+        background-color:none;
+        height: 5px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 18px;
+        margin-bottom: -5px;
+    }
+    #link:hover{
+        color: #586EA6;
+    }
+    #link:hover:after{
+        width: 0;
+    }
+
+    #blob1{
+        width: 70%;
+        top: -5%;
+        left: -3%;
+    }
+    #blob2{
+        width: 45%;
+    }
+    #blob3{
+        bottom: -233.3%
+    }
+    #blob4{
+        bottom: -233.3%
+    }
+    #blob5{
+        top: 15%;
+    }
+    .textInBlob{
+        top: 6%;
+        left: 5%;
+    }
+    .cardGroup{
+        top: 30%;
+    }
+    .col-sm-6{
+        width: 100%;
+    }
+    #cardImg{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 150px;
+    }
+    .buttonsAug,
+    .buttons{
+        display: inline-block;
+        text-align: center;
+    
+        position: relative;
+        bottom: -95%;
+    }
+    .buttonsAug{
+        bottom: -105%;
+    }
+    #cardButtonOpen,
+    #cardButtonGit{
+        width: 15%;
+        height: inherit;
+    }
+    #cardButtonOpen{
+        margin-left: 30%;
+    }
+
+    .textBox1{
+        top: 3300px;
+    }
+    .footer{
+        top: 3600px;
+    }
+}

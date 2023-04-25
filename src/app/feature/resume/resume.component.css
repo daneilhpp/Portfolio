@@ -191,3 +191,63 @@
     transform: scale(110%);
     transition: 0.5s;
 }
+
+@media only screen and (max-width: 700px) {
+    .body{
+        font-size: 25px;
+    }
+    .header{
+        width: 20%;
+        top: 3%;
+        line-height: 50px;
+    }
+    #link{
+        font: 25px;
+    }
+    #link:after{
+        content: '';
+        position: absolute;
+        background-color:none;
+        height: 5px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 18px;
+        margin-bottom: -5px;
+    }
+    #link:hover{
+        color: #F0A939;
+    }
+    #link:hover:after{
+        width: 0;
+    }
+
+    .textBox1{
+        top: 300px;
+        padding: 0 10%;
+    }
+    .resumeImage{
+        top: 500px;
+    }
+    #resumeImg{
+        width: 60%;
+    }
+
+    #blob1{
+        width: 60%;
+    }
+    #blob2{
+        top: 70%;
+    }
+    #blob3{
+        top: 118.75%;
+    }
+    #blob4{
+        top: 115.5%;
+    }
+    #blob5{
+        top: 40%;
+    }
+}

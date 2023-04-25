@@ -12,10 +12,43 @@
     top: 50px;
     right: 50px;
 }
-.textInBlob{
-    z-index: 1;
+/* .headerBtn{
+    visibility: hidden;
     position: absolute;
-    top: 50px;
+    right: 5%;
+    top: 5%;
+    width: 20%;
+    height: auto;
+}
+#headerBtn{
+    width: fit-content;
+    height: auto;
+    border: none;
+}
+#headerBtnImg{
+    width: 35%;
+    height: auto;
+}
+.headerBlock{
+    background-color: #EAEAEA;
+    position: absolute;
+    top: -60px;
+    left: -530px;
+    width: 504%;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 1;
+    visibility: hidden;
+} */
+#linkMobile{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.textInBlob{
+    position: absolute;
+    top: 7%;
     left: 5%;
 
     font-family: 'Montserrat';
@@ -62,7 +95,7 @@
 #titulo{
     font-weight: bolder;
 }
-
+#linkMobile,
 #link{
     font-family: 'Montserrat';
     font-size: 26px;
@@ -112,13 +145,14 @@
     /* background-color: blue; */
 
     width: 40%;
-    height: inherit;
+    height: auto;
 
     position: absolute;
     top: 0;
     left: 0;
     margin: -13%  0 0 -7%;
 }
+
 #blob2{
     width: 30%;
     height: inherit;
@@ -218,4 +252,79 @@
 #linkedinicon:hover{
     transform: scale(110%);
     transition: 0.5s;
+}
+
+@media only screen and (max-width: 700px) {
+    #blob1{
+        width: 60%;
+        height: auto;
+
+        margin: -20% 0 0 -10%;
+    }
+    .textInBlob{
+        top: 4%;
+        left: 6%;
+        font-size: 25px;
+    }
+    .body{
+        font-size: 20px;
+    }
+    .textBox1{
+        top: 300px;
+        width: 80%;
+    }
+    .textBox2{
+        top: 500px;
+    }
+
+    #blob2{
+        width: 30%;
+        top: 55%;
+    }
+    #blob3{
+        width: 30%;
+    }
+    #blob4{
+        bottom: -10%;
+    }
+    #blob3{
+        bottom: -10%;
+    }
+    #stacks{
+        font-size: 18px;
+    }
+    .header{
+        width: 20%;
+        text-align: right;
+        top: 3%;
+        line-height: 50px;
+    }
+    #link{
+        font: 25px;
+    }
+    #link:after{
+        content: '';
+        position: absolute;
+        background-color:none;
+        height: 5px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 18px;
+        margin-bottom: -5px;
+    }
+    #link:hover{
+        color: #99331C;
+    }
+    #link:hover:after{
+        width: 0;
+    }
+    /* .headerBtn{
+        visibility: visible;
+    }
+    #headerBtn:hover .headerBlock{
+        visibility: visible;
+    } */
 }
