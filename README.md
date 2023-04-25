@@ -1,27 +1,34 @@
-# Portfolio
+# Portfolio Pessoal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
+Projeto feito em Angular (versão 13.3.9) voltado para treinar minhas habilidades em FrontEnd, e também servir como uma biblioteca para meus outros projetos.
 
-## Development server
+## Páginas
+* **HomePage:** Uma breve introdução sobre mim, e sobre meus conhecimentos.
+![](https://i.imgur.com/nWjqJyh.png)
+* **Sobre:** Falando mais profundamente sobre minhas habilidades e ferramenta.
+![](https://i.imgur.com/r7wl4oY.png)
+* **Projetos:** Mostrando em cards os projetos que já desenvolvi, ou tive parte no desenvolvimento.
+![](https://i.imgur.com/4lcgCMK.png)
+* **Currículo:** Meus contatos e também um currículo anexado para download direto.
+![](https://i.imgur.com/1z2DUPL.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Caso tenha interesse, fique a vontade para visitar o site nesse link (a ser inserido)!
 
-## Code scaffolding
+## Desenvolvimento e Hospedagem
+O site está sendo hospedado utilizando Vercel, e foi desenvolvido em Angular como citado anteriormente, com foco em CSS e HTML, fazendo o uso de Routers e responsividade, totalmente desenvolvido em cima das coordenadas do documento. Antes do site começar a ser desenvolvido, foi realizado um [protótipo](https://www.figma.com/file/GUa0Xd5xkbCZ7bTL7ZGQzd/Portfolio?node-id=0%3A1&t=vitzfcaQdZwCHUuq-1) pelo Figma.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como rodar o repositório
 
-## Build
+Para rodar o projeto por meio desse repositório, basta ir no terminal local e usar '**git clone https://github.com/daneilhpp/Portfolio**'.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Depois disso, dentro da pasta copiada rode o comando '**npm i**' para instalar os pacotes necessários.
 
-## Running unit tests
+E por fim dê o comando '**ng serve -o**'.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Créditos
 
-## Running end-to-end tests
+Devo dar créditos ao site [Flaticon](https://www.flaticon.com/) por disponibilizar uma biblioteca tão vasta de conteúdos disponíveis para utilização gratuíta.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Quaisquer dúvidas
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contate o desenvolvedor desse projeto no email carvalhosilvad88@gmail.com
