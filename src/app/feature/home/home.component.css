@@ -374,11 +374,11 @@
         top: 40%;
     }
     #blob3{
-        bottom: -31.6%;
+        bottom: -54.5%;
         width: 30%;
     }
     #blob4{
-        bottom: -31.6%;
+        bottom: -54.5%;
     }
     #blob5{
         bottom: -10%;
@@ -416,7 +416,8 @@
         width: 0;
     }
     .footer{
-        top: 850px;
+        top: 870px;
+        height: 130px;
     }
     .text{
         font-size: 15px;
