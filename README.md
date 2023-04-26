@@ -1,4 +1,4 @@
-# Portfolio Pessoal
+# Portfolio Pessoal <br> [daniel.portfolio](https://portfolio-daneilhpp.vercel.app/home)
 
 Projeto feito em Angular (versão 13.3.9) voltado para treinar minhas habilidades em FrontEnd, e também servir como uma biblioteca para meus outros projetos.
 
@@ -12,10 +12,10 @@ Projeto feito em Angular (versão 13.3.9) voltado para treinar minhas habilidade
 * **Currículo:** Meus contatos e também um currículo anexado para download direto.
 ![](https://i.imgur.com/1z2DUPL.png)
 
-Caso tenha interesse, fique a vontade para visitar o site nesse link (a ser inserido)!
+Caso tenha interesse, fique a vontade para visitar o site nesse link [daniel.portfolio](https://portfolio-daneilhpp.vercel.app/home)!
 
 ## Desenvolvimento e Hospedagem
-O site está sendo hospedado utilizando Vercel, e foi desenvolvido em Angular como citado anteriormente, com foco em CSS e HTML, fazendo o uso de Routers e responsividade, totalmente desenvolvido em cima das coordenadas do documento. Antes do site começar a ser desenvolvido, foi realizado um [protótipo](https://www.figma.com/file/GUa0Xd5xkbCZ7bTL7ZGQzd/Portfolio?node-id=0%3A1&t=vitzfcaQdZwCHUuq-1) pelo Figma.
+O site está sendo hospedado utilizando Vercel, e foi desenvolvido em Angular e Node.js como citado anteriormente, com foco em CSS e HTML, fazendo o uso de Routers e responsividade, totalmente desenvolvido em cima das coordenadas do documento, com VSCode. Antes do site começar a ser desenvolvido, foi realizado um [protótipo](https://www.figma.com/file/GUa0Xd5xkbCZ7bTL7ZGQzd/Portfolio?node-id=0%3A1&t=vitzfcaQdZwCHUuq-1) pelo Figma.
 
 ## Como rodar o repositório
 
